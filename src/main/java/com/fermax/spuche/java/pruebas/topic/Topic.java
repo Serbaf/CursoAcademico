@@ -2,10 +2,8 @@ package com.fermax.spuche.java.pruebas.topic;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.Table;
 
 @Entity
-@Table(name = "TOPIC")
 public class Topic
 {
 	
