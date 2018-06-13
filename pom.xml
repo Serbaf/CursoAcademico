@@ -50,12 +50,19 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- JAXB-Evita el error de entityManagerFactory y la ClassNotFoundException  -->
+		<!-- JAXB-Evita el error de entityManagerFactory y la ClassNotFoundException -->
 		<dependency>
 			<groupId>javax.xml.bind</groupId>
 			<artifactId>jaxb-api</artifactId>
 		</dependency>
-		
+
+
+		<!-- ACTUATOR. No es necesario -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
